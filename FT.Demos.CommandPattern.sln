@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.Domain", "FT.Demos.CommandPattern.Domain\FT.Demos.CommandPattern.Domain.csproj", "{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{D10BBAFB-43E1-4FEF-B63D-6D3899EC0D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.Infrastructure", "FT.Demos.CommandPattern.Infrastructure\FT.Demos.CommandPattern.Infrastructure.csproj", "{854ECFDF-1454-424C-B00D-13DAECED148C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Client", "4. Client", "{1DA54ECE-A1AA-412F-BA66-0CF2B00440FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{626FBACA-BF24-4666-A60A-436D38E8AED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.Services", "FT.Demos.CommandPattern.Services\FT.Demos.CommandPattern.Services.csproj", "{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Implementations", "3. Implementations", "{F73955DB-5CB9-4E10-BCA3-1566DD91EF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.BasicImplementations", "FT.Demos.CommandPattern.BasicImplementations\FT.Demos.CommandPattern.BasicImplementations.csproj", "{0C59B85F-BE97-439B-8C76-767B41BFA3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.CommandImplementations", "FT.Demos.CommandPattern.CommandImplementations\FT.Demos.CommandPattern.CommandImplementations.csproj", "{6F2BE711-CA5F-446B-896B-E74F528E8220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Infrastructure", "1. Infrastructure", "{0672CDEE-2809-4877-B568-9EB7236DDBF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Presentation", "2. Presentation", "{34B50E9F-48B7-4B6C-B9B4-19548023A90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.ConsoleCore", "FT.Demos.CommandPattern.ConsoleCore\FT.Demos.CommandPattern.ConsoleCore.csproj", "{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Testing", "3. Testing", "{0CEA7D7C-D5BC-42FC-9764-2FDB82F7129F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT.Demos.CommandPattern.Testing", "FT.Demos.CommandPattern.Testing\FT.Demos.CommandPattern.Testing.csproj", "{37D9C6BF-E346-436C-A420-28B386EE074B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854ECFDF-1454-424C-B00D-13DAECED148C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854ECFDF-1454-424C-B00D-13DAECED148C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854ECFDF-1454-424C-B00D-13DAECED148C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854ECFDF-1454-424C-B00D-13DAECED148C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C59B85F-BE97-439B-8C76-767B41BFA3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C59B85F-BE97-439B-8C76-767B41BFA3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C59B85F-BE97-439B-8C76-767B41BFA3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C59B85F-BE97-439B-8C76-767B41BFA3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2BE711-CA5F-446B-896B-E74F528E8220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2BE711-CA5F-446B-896B-E74F528E8220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2BE711-CA5F-446B-896B-E74F528E8220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2BE711-CA5F-446B-896B-E74F528E8220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D9C6BF-E346-436C-A420-28B386EE074B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D9C6BF-E346-436C-A420-28B386EE074B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D9C6BF-E346-436C-A420-28B386EE074B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D9C6BF-E346-436C-A420-28B386EE074B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CB5BB72-DE66-4CAA-AF49-3C5B7B57B6AB} = {D10BBAFB-43E1-4FEF-B63D-6D3899EC0D10}
+		{854ECFDF-1454-424C-B00D-13DAECED148C} = {0672CDEE-2809-4877-B568-9EB7236DDBF2}
+		{E9E4BC73-61F6-48AE-95EA-E801DD5AAA39} = {626FBACA-BF24-4666-A60A-436D38E8AED4}
+		{0C59B85F-BE97-439B-8C76-767B41BFA3F9} = {F73955DB-5CB9-4E10-BCA3-1566DD91EF9C}
+		{6F2BE711-CA5F-446B-896B-E74F528E8220} = {F73955DB-5CB9-4E10-BCA3-1566DD91EF9C}
+		{0672CDEE-2809-4877-B568-9EB7236DDBF2} = {1DA54ECE-A1AA-412F-BA66-0CF2B00440FC}
+		{34B50E9F-48B7-4B6C-B9B4-19548023A90B} = {1DA54ECE-A1AA-412F-BA66-0CF2B00440FC}
+		{4A65E5D6-1E8B-4B1D-BA3E-30364D4B9321} = {34B50E9F-48B7-4B6C-B9B4-19548023A90B}
+		{0CEA7D7C-D5BC-42FC-9764-2FDB82F7129F} = {1DA54ECE-A1AA-412F-BA66-0CF2B00440FC}
+		{37D9C6BF-E346-436C-A420-28B386EE074B} = {0CEA7D7C-D5BC-42FC-9764-2FDB82F7129F}
+	EndGlobalSection
+EndGlobal
